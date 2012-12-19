@@ -1,0 +1,33 @@
+Python 2.7.3 (default, Apr 10 2012, 23:24:47) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+
+breadth_first_graph_search finds a solution of length 13 that
+  Expanded 12 states
+  Called the goal test 13 times
+  Added 13 states to the graph
+  The actions on the solution path are: START => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => <- load the boat with wife 1 => load the boat with husband 2 and husband 3 -> => <- load the boat with husband 2 and wife 2 => load the boat with husband 1 and husband 2 -> => <- load the boat with wife 3 => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => all done => DONE 
+ 
+
+depth_first_graph_search finds a solution of length 13 that
+  Expanded 12 states
+  Called the goal test 13 times
+  Added 13 states to the graph
+  The actions on the solution path are: START => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => <- load the boat with wife 1 => load the boat with husband 2 and husband 3 -> => <- load the boat with husband 2 and wife 2 => load the boat with husband 1 and husband 2 -> => <- load the boat with wife 3 => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => all done => DONE 
+ 
+
+iterative_deepening_search finds a solution of length 13 that
+  Expanded 78 states
+  Called the goal test 91 times
+  Added 91 states to the graph
+  The actions on the solution path are: START => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => <- load the boat with wife 1 => load the boat with husband 2 and husband 3 -> => <- load the boat with husband 2 and wife 2 => load the boat with husband 1 and husband 2 -> => <- load the boat with wife 3 => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => all done => DONE 
+ 
+
+depth_limited_search finds a solution of length 13 that
+  Expanded 12 states
+  Called the goal test 13 times
+  Added 13 states to the graph
+  The actions on the solution path are: START => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => <- load the boat with wife 1 => load the boat with husband 2 and husband 3 -> => <- load the boat with husband 2 and wife 2 => load the boat with husband 1 and husband 2 -> => <- load the boat with wife 3 => load the boat with wife 1 and wife 2 -> => <- load the boat with wife 1 => load the boat with wife 1 and wife 3 -> => all done => DONE 
+ 
+>>> 

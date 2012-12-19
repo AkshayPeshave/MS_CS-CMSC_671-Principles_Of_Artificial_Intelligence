@@ -1,0 +1,27 @@
+Python 2.7.3 (default, Apr 10 2012, 23:24:47) [MSC v.1500 64 bit (AMD64)] on win32
+Type "copyright", "credits" or "license()" for more information.
+>>> ================================ RESTART ================================
+>>> 
+Solution to WJ((3, 3, 0, 0, 0, 0),(0, 0, 3, 3, 0, 0)) found by breadth_first_tree_search
+[<Node (3, 3, 0, 0, 0, 0)>, <Node (2, 2, 0, 0, 1, 1)>, <Node (2, 2, 1, 0, 0, 1)>, <Node (2, 1, 1, 0, 0, 2)>, <Node (2, 1, 1, 1, 0, 1)>, <Node (1, 1, 1, 1, 1, 1)>, <Node (1, 1, 2, 1, 0, 1)>, <Node (1, 0, 2, 1, 0, 2)>, <Node (1, 0, 2, 2, 0, 1)>, <Node (0, 0, 2, 2, 1, 1)>, <Node (0, 0, 3, 3, 0, 0)>]
+
+Solution to WJ((3, 3, 0, 0, 0, 0),(0, 0, 3, 3, 0, 0)) found by breadth_first_graph_search
+[<Node (3, 3, 0, 0, 0, 0)>, <Node (2, 2, 0, 0, 1, 1)>, <Node (2, 2, 1, 0, 0, 1)>, <Node (2, 1, 1, 0, 0, 2)>, <Node (2, 1, 1, 1, 0, 1)>, <Node (1, 1, 1, 1, 1, 1)>, <Node (1, 1, 2, 1, 0, 1)>, <Node (1, 0, 2, 1, 0, 2)>, <Node (1, 0, 2, 2, 0, 1)>, <Node (0, 0, 2, 2, 1, 1)>, <Node (0, 0, 3, 3, 0, 0)>]
+
+Solution to WJ((3, 3, 0, 0, 0, 0),(0, 0, 3, 3, 0, 0)) found by depth_first_graph_search
+[<Node (3, 3, 0, 0, 0, 0)>, <Node (2, 2, 0, 0, 1, 1)>, <Node (2, 2, 1, 0, 0, 1)>, <Node (2, 1, 1, 0, 0, 2)>, <Node (2, 1, 1, 1, 0, 1)>, <Node (1, 1, 1, 1, 1, 1)>, <Node (1, 1, 2, 1, 0, 1)>, <Node (1, 0, 2, 1, 0, 2)>, <Node (1, 0, 2, 2, 0, 1)>, <Node (0, 0, 2, 2, 1, 1)>, <Node (0, 0, 3, 3, 0, 0)>]
+
+Solution to WJ((3, 3, 0, 0, 0, 0),(0, 0, 3, 3, 0, 0)) found by iterative_deepening_search
+[<Node (3, 3, 0, 0, 0, 0)>, <Node (2, 2, 0, 0, 1, 1)>, <Node (2, 2, 1, 0, 0, 1)>, <Node (2, 1, 1, 0, 0, 2)>, <Node (2, 1, 1, 1, 0, 1)>, <Node (1, 1, 1, 1, 1, 1)>, <Node (1, 1, 2, 1, 0, 1)>, <Node (1, 0, 2, 1, 0, 2)>, <Node (1, 0, 2, 2, 0, 1)>, <Node (0, 0, 2, 2, 1, 1)>, <Node (0, 0, 3, 3, 0, 0)>]
+
+Solution to WJ((3, 3, 0, 0, 0, 0),(0, 0, 3, 3, 0, 0)) found by depth_limited_search
+[<Node (3, 3, 0, 0, 0, 0)>, <Node (2, 2, 0, 0, 1, 1)>, <Node (2, 2, 1, 0, 0, 1)>, <Node (2, 1, 1, 0, 0, 2)>, <Node (2, 1, 1, 1, 0, 1)>, <Node (1, 1, 1, 1, 1, 1)>, <Node (1, 1, 2, 1, 0, 1)>, <Node (1, 0, 2, 1, 0, 2)>, <Node (1, 0, 2, 2, 0, 1)>, <Node (0, 0, 2, 2, 1, 1)>, <Node (0, 0, 3, 3, 0, 0)>]
+
+SUMMARY: successors/goal tests/states generated/solution
+SEARCHER                     GOAL:(0,0,0,0,3,3)     
+breadth_first_tree_search    <  10/  11/  10/(0, >  
+breadth_first_graph_search   <  10/  11/  10/(0, >  
+depth_first_graph_search     <  10/  11/  10/(0, >  
+iterative_deepening_search   <  76/  90/  77/(0, >  
+depth_limited_search         <  10/  11/  10/(0, >  
+>>> 
